@@ -2,3 +2,4 @@ baseURL = "http://example.org/"
 languageCode = "ru"
 title = "Re-Star"
 theme = ["restar"]
+publishDIr = "docs"
