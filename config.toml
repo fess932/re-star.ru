@@ -3,3 +3,5 @@ languageCode = "ru"
 title = "Re-Star"
 theme = ["restar"]
 publishDIr = "docs"
+
+defaultContentLanguage = "ru"

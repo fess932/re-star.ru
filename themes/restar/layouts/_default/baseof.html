@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html lang="ru">
-    {{- partial "head.html" . -}}
+<!doctype html>
+<html amp lang="ru">
+    <head>
+        <title>{{ block "title" .}}
+            {{- .Site.Title -}}
+            {{end}}</title>
+        {{- partial "amp" -}}
+    </head>
+
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
+        <div>
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
