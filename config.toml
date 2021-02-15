@@ -1,4 +1,6 @@
 # baseURL = "https://re-star.ru/" if in re-star.ru only
+baseURL = "https://fess932.github.io/re-star.ru/" # github url
+
 languageCode = "ru"
 title = "re-star"
 theme = ["restar"]

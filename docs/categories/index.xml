@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on re-star</title>
-    <link>/categories/</link>
+    <link>https://fess932.github.io/re-star.ru/categories/</link>
     <description>Recent content in Categories on re-star</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru</language><atom:link href="https://fess932.github.io/re-star.ru/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
