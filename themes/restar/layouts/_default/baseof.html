@@ -1,17 +1,26 @@
-<!doctype html>
-<html amp lang="ru">
-    <head>
-        <title>{{ block "title" .}}
-            {{- .Site.Title -}}
-            {{end}}</title>
-        {{- partial "amp" -}}
-    </head>
+<!DOCTYPE html>
+<html>
 
-    <body>
-        {{- partial "header.html" . -}}
-        <div>
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<head>
+    <title>{{.Title}}</title>
+
+    {{$styles := resources.Get "css/main.css"}}
+    {{$styles := $styles | resources.PostCSS (dict "inlineImports" true)}}
+
+    {{ if hugo.IsProduction }}
+    {{$styles = $styles | minify}}
+    {{ end }}
+
+    <link rel="stylesheet" href="{{$styles.Permalink}}">
+
+</head>
+
+<body>
+    <h1>Lel is h1</h1>
+
+
+    {{block "main" .}}{{ end }}
+
+</body>
+
 </html>

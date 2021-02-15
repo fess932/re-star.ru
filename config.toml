@@ -1,7 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://re-star.ru/"
 languageCode = "ru"
-title = "Re-Star"
+title = "re-star"
 theme = ["restar"]
-publishDIr = "docs"
-
-defaultContentLanguage = "ru"

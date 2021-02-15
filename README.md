@@ -1,1 +1,0 @@
-# re-star.ru
