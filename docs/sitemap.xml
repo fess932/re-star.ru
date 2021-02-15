@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://re-star.ru/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://re-star.ru/posts/lel/</loc>
+    <loc>/posts/lel/</loc>
   </url>
   
   <url>
-    <loc>https://re-star.ru/posts/</loc>
+    <loc>/posts/</loc>
   </url>
   
   <url>
-    <loc>https://re-star.ru/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://re-star.ru/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

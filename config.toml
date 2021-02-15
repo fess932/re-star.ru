@@ -1,4 +1,4 @@
-baseURL = "https://re-star.ru/"
+# baseURL = "https://re-star.ru/" if in re-star.ru only
 languageCode = "ru"
 title = "re-star"
 theme = ["restar"]
